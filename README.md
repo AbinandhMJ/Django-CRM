@@ -1,4 +1,5 @@
 # CRM (Customer Relationship Management) Application
+
 ### Developed with DJANGO
 
 This is a CRM (Customer Relationship Management) application developed using Python and Django framework. The application aims to help businesses manage their interactions and relationships with customers effectively.
@@ -8,44 +9,48 @@ This is a CRM (Customer Relationship Management) application developed using Pyt
 The CRM application offers the following features:
 
 1. Customer Management:
+
    - Create, update, and delete customer profiles.
    - View customer details such as contact information, addresses, and notes.
    - Search and filter customers based on various criteria.
-  
+
 2. Interaction Tracking:
+
    - Log interactions with customers including calls, meetings, and emails.
    - Record the date, time, and nature of each interaction.
    - Attach notes and documents related to interactions.
-  
+
 3. Task Management:
+
    - Create and assign tasks to team members.
    - Set due dates and priorities for tasks.
    - Track task status and progress.
-  
+
 4. Sales Opportunity Tracking:
+
    - Create and manage sales opportunities.
    - Record details such as the potential value, probability of closing, and stage of each opportunity.
    - Track the progress of opportunities and generate reports.
-  
+
 5. Reporting and Analytics:
    - Generate reports on customer interactions, sales opportunities, and task performance.
    - View analytics to gain insights into customer behavior and sales performance.
-  
+
 ## Installation
 
 To install and run the CRM application, follow these steps:
 
 1. Clone the repository:
 
-``git clone https://github.com/AbinandhMJ/Django-CRM.git``
+`git clone https://github.com/AbinandhMJ/Django-CRM.git`
 
 2. Navigate to the project directory:
 
-``cd Django-CRM``
+`cd Django-CRM`
 
 3. Create a virtual environment:
 
-``python3 -m venv env``
+`python3 -m venv env`
 
 4. Activate the virtual environment:
 
@@ -62,15 +67,15 @@ To install and run the CRM application, follow these steps:
   ```
 
 5. Install the required dependencies:
-``pip install -r requirements.txt``
+   `pip install -r requirements.txt`
 
 6. Run database migrations:
 
-``python manage.py migrate``
+`python manage.py migrate`
 
 7. Start the development server:
 
-``python manage.py runserver``
+`python manage.py runserver`
 
 8. Access the CRM application in your web browser at `http://localhost:8000`.
 
