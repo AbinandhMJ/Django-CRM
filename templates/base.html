@@ -10,7 +10,14 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <title>Customer Relationship Managemen</title>
+    <title>CRM</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{% static 'img/favicon.png' %}"
+    />
 
     <!-- Custom fonts for this template-->
     <link
@@ -99,6 +106,15 @@
 
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block" />
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline">
+          <button
+            class="rounded-circle border-0"
+            id="sidebarToggle"
+            type="button"
+          ></button>
+        </div>
       </ul>
       <!-- End of Sidebar -->
 
@@ -111,5 +127,13 @@
       <!-- End of Content Wrapper -->
     </div>
     <!-- End of Page Wrapper -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom js for this template-->
+    <script src="{% static 'js/sb-admin-2.min.js' %}"></script>
   </body>
 </html>
