@@ -104,7 +104,7 @@ This CRM application is open source and released under the [MIT License](LICENSE
 For any questions or inquiries, please contact the project maintainer:
 
 - Name: AbinandhMJ
-- Email: [abinandhmurukesa@gmail.com](mailto:abinandhmurukesan@gmail.com)
+- Email: [abinandhmurukesan@gmail.com](mailto:abinandhmurukesan@gmail.com)
 
 ---
 
